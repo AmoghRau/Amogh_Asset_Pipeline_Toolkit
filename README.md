@@ -46,13 +46,34 @@ The toolkit can now inspect selected 3D assets and check their polygon count aga
 
 ---
 
+### V0.3 — Material Checker ✅
+
+The toolkit can now check whether selected 3D assets have a material assigned.
+
+**What it does:**
+
+* Checks selected mesh objects
+* Counts the materials assigned to each asset
+* Flags assets with no material
+* Helps identify assets that need attention before entering a game pipeline
+
+**Example:**
+
+`Asset_01` → ✓ Has material — GOOD
+`Asset_02` → ✓ Has material — GOOD
+`Asset_03` → ✓ Has material — GOOD
+`Asset_04` → ⚠ No material — NEEDS ATTENTION
+`Asset_05` → ✓ Has material — GOOD
+
+---
+
 ### Upcoming
 
-* [ ] V0.3 — Material Checker
 * [ ] V0.4 — Asset Validator
 * [ ] V0.5 — Automatic Cleanup
 * [ ] V0.6 — Game Engine Exporter
 * [ ] V1.0 — Complete Asset Pipeline Toolkit
+
 
 ## 🧰 Technologies
 
