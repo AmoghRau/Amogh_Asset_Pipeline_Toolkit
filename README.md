@@ -25,9 +25,29 @@ The first prototype of the toolkit.
 `Cube.001` → `Asset_02`
 `Cube.002` → `Asset_03`
 
+---
+
+### V0.2 — Polygon Count Checker ✅
+
+The toolkit can now inspect selected 3D assets and check their polygon count against a predefined limit.
+
+**What it does:**
+
+* Checks selected mesh objects
+* Counts their polygons
+* Compares them against a polygon limit
+* Flags assets that exceed the limit
+
+**Example:**
+
+`Asset_01` → ✓ 6 polygons — GOOD
+`Asset_02` → ✓ 6 polygons — GOOD
+`Asset_03` → ⚠ 10,000 polygons — TOO HIGH
+
+---
+
 ### Upcoming
 
-* [ ] V0.2 — Polygon Count Checker
 * [ ] V0.3 — Material Checker
 * [ ] V0.4 — Asset Validator
 * [ ] V0.5 — Automatic Cleanup
@@ -45,3 +65,4 @@ The first prototype of the toolkit.
 Technical Artists bridge the gap between art and programming.
 
 This project is an experiment in using programming to automate repetitive tasks that artists encounter during game development.
+
