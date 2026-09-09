@@ -67,13 +67,35 @@ The toolkit can now check whether selected 3D assets have a material assigned.
 
 ---
 
+### V0.4 — Asset Validator ✅
+
+The toolkit can now combine multiple validation checks into a single asset validation process.
+
+**What it does:**
+
+* Checks selected mesh objects
+* Checks polygon count against a predefined limit
+* Checks whether materials are assigned
+* Reports whether each asset is ready
+* Lists specific issues that need attention
+
+**Example:**
+
+`Asset_01` → ✓ READY
+`Asset_02` → ✓ READY
+`Asset_03` → ⚠ NEEDS ATTENTION
+    → Too many polygons (10000)
+`Asset_04` → ⚠ NEEDS ATTENTION
+    → No material
+`Asset_05` → ✓ READY
+
+---
+
 ### Upcoming
 
-* [ ] V0.4 — Asset Validator
 * [ ] V0.5 — Automatic Cleanup
 * [ ] V0.6 — Game Engine Exporter
 * [ ] V1.0 — Complete Asset Pipeline Toolkit
-
 
 ## 🧰 Technologies
 
