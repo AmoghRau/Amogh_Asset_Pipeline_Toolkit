@@ -91,9 +91,31 @@ The toolkit can now combine multiple validation checks into a single asset valid
 
 ---
 
+### V0.5 — Automatic Cleanup ✅
+
+The toolkit can now automatically fix common asset preparation issues instead of only reporting them.
+
+**What it does:**
+
+* Removes empty material slots
+* Applies object transforms
+* Standardizes asset names
+* Reports the changes made during cleanup
+
+**Example:**
+
+```text
+Chair_Final_FINAL2 → Asset_01
+Cube.001 → Asset_02
+RandomObject → Asset_03
+```
+
+The cleanup process also applies transforms and removes unused material slots where applicable.
+
+---
+
 ### Upcoming
 
-* [ ] V0.5 — Automatic Cleanup
 * [ ] V0.6 — Game Engine Exporter
 * [ ] V1.0 — Complete Asset Pipeline Toolkit
 
@@ -108,4 +130,5 @@ The toolkit can now combine multiple validation checks into a single asset valid
 Technical Artists bridge the gap between art and programming.
 
 This project is an experiment in using programming to automate repetitive tasks that artists encounter during game development.
+
 
